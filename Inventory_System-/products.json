@@ -1,0 +1,46 @@
+[
+    {
+        "product_id": "P100",
+        "name": "Camping Tent",
+        "category": "Camping",
+        "quantity": 10,
+        "reorder_level": 5,
+        "reorder_quantity": 15,
+        "unit_price": 199.99,
+        "vendor_id": "V001",
+        "active": true
+    },
+    {
+        "product_id": "P101",
+        "name": "Sleeping Bag",
+        "category": "Camping",
+        "quantity": 20,
+        "reorder_level": 8,
+        "reorder_quantity": 20,
+        "unit_price": 89.99,
+        "vendor_id": "V001",
+        "active": true
+    },
+    {
+        "product_id": "P102",
+        "name": "Fishing Rod",
+        "category": "Fishing",
+        "quantity": 12,
+        "reorder_level": 5,
+        "reorder_quantity": 10,
+        "unit_price": 59.99,
+        "vendor_id": "V002",
+        "active": true
+    },
+    {
+        "product_id": "P200",
+        "name": "Hiking Backpack",
+        "category": "Camping",
+        "quantity": 15,
+        "reorder_level": 5,
+        "reorder_quantity": 10,
+        "unit_price": 79.99,
+        "vendor_id": "V001",
+        "active": true
+    }
+]

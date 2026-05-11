@@ -1,0 +1,9 @@
+Products are stored as Product objects inside a list. Each product contains information such as ID, name, category, quantity, and price. The list is used throughout the program to manage inventory.
+
+Purchase orders are connected to vendors and products using IDs. Each purchase order stores the vendor ID and a list of ordered products. This allows the system to identify which vendor supplied which products.
+
+Receiving a shipment increases product inventory quantities. The program checks each item in the purchase order and updates the matching product quantity. The purchase order status is then changed to RECEIVED.
+
+The save/load system uses JSON files. The program converts objects into dictionaries using to_dict methods and writes them to JSON files. When loading, the dictionaries are converted back into objects.
+
+One bug involved duplicate receiving of purchase orders. Inventory quantities were increasing multiple times for the same shipment. This was fixed by checking if the purchase order status was already RECEIVED before updating inventory.

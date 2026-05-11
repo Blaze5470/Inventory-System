@@ -1,0 +1,17 @@
+[
+    {
+        "po_number": "PO2002",
+        "vendor_id": "V001",
+        "date_created": "2026-05-11",
+        "items_ordered": [
+            {
+                "product_id": "P200",
+                "product_name": "Hiking Backpack",
+                "quantity": 5,
+                "unit_price": 79.99
+            }
+        ],
+        "total_cost": 399.95,
+        "status": "OPEN"
+    }
+]

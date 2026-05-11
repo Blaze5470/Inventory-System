@@ -1,0 +1,18 @@
+[
+    {
+        "vendor_id": "V001",
+        "vendor_name": "Summit Outdoor Supply",
+        "contact_name": "John Miller",
+        "phone": "555-123-4567",
+        "email": "john@summit.com",
+        "address": "Denver, CO"
+    },
+    {
+        "vendor_id": "V002",
+        "vendor_name": "RiverStone Fishing Co.",
+        "contact_name": "Sarah Jones",
+        "phone": "555-222-3333",
+        "email": "sarah@riverstone.com",
+        "address": "Boise, ID"
+    }
+]

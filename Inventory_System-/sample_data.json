@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "product_id": "P100",
+            "name": "Camping Tent",
+            "category": "Camping",
+            "quantity": 10,
+            "reorder_level": 5,
+            "reorder_quantity": 15,
+            "unit_price": 199.99,
+            "vendor_id": "V001",
+            "active": true
+        }
+    ],
+
+    "vendors": [
+        {
+            "vendor_id": "V001",
+            "vendor_name": "Summit Outdoor Supply",
+            "contact_name": "John Miller",
+            "phone": "555-123-4567",
+            "email": "john@summit.com",
+            "address": "Denver, CO"
+        }
+    ],
+
+    "purchase_orders": [
+        {
+            "po_number": "PO1001",
+            "vendor_id": "V001",
+            "date_created": "2026-05-10",
+            "items_ordered": [
+                {
+                    "product_id": "P100",
+                    "product_name": "Camping Tent",
+                    "quantity": 5,
+                    "unit_price": 199.99
+                }
+            ],
+            "total_cost": 999.95,
+            "status": "OPEN"
+        }
+    ]
+}
